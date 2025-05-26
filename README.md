@@ -50,8 +50,8 @@ WalkWrite is a voice note app that uses on-device Whisper 3.5 Turbo and Gwen 3 (
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/WalkWrite.git
-cd WalkWrite
+git clone https://github.com/lbacaj/WalkWrite-opensource.git
+cd WalkWrite-opensource
 ```
 
 2. Install Git LFS and pull the model files:
