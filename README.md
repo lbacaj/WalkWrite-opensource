@@ -61,6 +61,8 @@ git lfs install
 git lfs pull
 ```
 
+Alternatively, you can download the models directly from Hugging Face if you prefer.
+
 3. Build the whisper.cpp framework:
 ```bash
 ./build-whisper-xcframework.sh
