@@ -1,0 +1,12 @@
+// Configuration settings for WalkWrite
+// Copy this file to Config.xcconfig and update with your own values
+
+// Your Apple Developer Team ID (found in your Apple Developer account)
+// Leave empty for personal development
+DEVELOPMENT_TEAM = 
+
+// Your organization's bundle identifier prefix
+// Example: com.yourcompany
+PRODUCT_BUNDLE_IDENTIFIER_PREFIX = com.example
+
+// The app's bundle identifier will be: $(PRODUCT_BUNDLE_IDENTIFIER_PREFIX).walkwrite

@@ -1,0 +1,68 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 1500 × 1280)",
+        "shortDescription" : "",
+        "shape" : "[1, 1500, 1280]",
+        "name" : "output",
+        "type" : "MultiArray"
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 6,
+    "mlProgramOperationTypeHistogram" : {
+      "Concat" : 32,
+      "Gelu" : 34,
+      "LayerNorm" : 65,
+      "Transpose" : 33,
+      "Softmax" : 640,
+      "Squeeze" : 1,
+      "Cast" : 2,
+      "Add" : 65,
+      "Einsum" : 1280,
+      "ExpandDims" : 1,
+      "Split" : 96,
+      "Conv" : 194
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "12.0",
+      "tvOS" : "15.0",
+      "visionOS" : "1.0",
+      "watchOS" : "8.0",
+      "iOS" : "15.0",
+      "macCatalyst" : "15.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.source_dialect" : "TorchScript",
+      "com.github.apple.coremltools.source" : "torch==2.1.0",
+      "com.github.apple.coremltools.version" : "8.0"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float32",
+        "formattedType" : "MultiArray (Float32 1 × 128 × 3000)",
+        "shortDescription" : "",
+        "shape" : "[1, 128, 3000]",
+        "name" : "logmel_data",
+        "type" : "MultiArray"
+      }
+    ],
+    "generatedClassName" : "coreml_encoder_large_v3_turbo",
+    "method" : "predict"
+  }
+]
